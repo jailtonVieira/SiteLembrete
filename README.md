@@ -1,6 +1,4 @@
-# Site Lembrete — Vite + React
-
-Versão web do AppLembrete em React JS com Vite (UNINASSAU).
+# Site Lembrete — Vite
 
 ## Como rodar localmente
 
