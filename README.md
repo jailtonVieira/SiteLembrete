@@ -1,67 +1,100 @@
-# Site Lembrete — Vite
+# NoteUp
 
-## Como rodar localmente
+## Objetivo
+O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos e lembretes importantes, enviando notificações para evitar esquecimentos.
 
+---
+
+## Público-alvo
+- Estudantes
+- Trabalhadores
+- Pessoas que precisam organizar rotinas
+
+---
+
+## Funcionalidades
+- Cadastro de usuário
+- Login e autenticação
+- Criação, edição e exclusão de lembretes
+- Organização por listas (Trabalho, Pessoal, Estudos, Saúde etc.)
+- Notificações com antecipação configurável
+- Repetição de lembretes (diário, semanal, mensal)
+- Lixeira com opção de restaurar
+- Busca de lembretes
+- Tema claro e escuro
+
+---
+
+## Tecnologias utilizadas
+
+### Frontend
+- React
+- Vite
+- React Router DOM v6
+
+### Ferramentas
+- GitHub
+- Figma
+- Trello
+
+---
+
+## Como executar o projeto
+
+### Clonar o repositório
 ```bash
-# 1. Instalar dependências
-npm install
+git clone https://github.com/jailtonVieira/SiteLembrete
+```
 
-# 2. Rodar em modo desenvolvimento
+### Entrar na pasta
+```bash
+cd SiteLembrete
+```
+
+### Instalar as dependências
+```bash
+npm install
+```
+
+### Rodar
+```bash
 npm run dev
 ```
 
-## Build para hospedagem (Vercel / Netlify)
+---
 
-```bash
-npm run build
-```
+## Metodologia
+O projeto é desenvolvido utilizando a metodologia ágil Scrum, com foco em organização, divisão de tarefas e entregas contínuas.
 
-## Páginas (atende o requisito de 7 rotas do professor)
+### O Scrum foi escolhido por permitir:
+- Melhor divisão de tarefas
+- Acompanhamento de progresso
+- Organização do time
+- Facilidade para corrigir problemas rapidamente
+- Desenvolvimento em etapas (Sprints)
 
-| Rota | Tela |
-|------|------|
-| `/login` | Login |
-| `/cadastro` | Cadastro |
-| `/` | Home / Dashboard |
-| `/criar` | Criar lembrete |
-| `/lembrete/:id` | Detalhes e edição |
-| `/listas` | Gerenciar listas |
-| `/busca` | Buscar lembretes |
-| `/lixeira` | Lixeira |
-| `/perfil` | Perfil do usuário |
+---
 
-## Conectar ao back end
+## Papéis da equipe
 
-Em `src/context/AuthContext.jsx`, descomente as linhas da API:
-```js
-const API_URL = 'http://IP_DO_SERVIDOR:3000';
-```
+| Nome | Função | Responsabilidade |
+|------|--------|-----------------|
+| Jailton dos Santos | Scrum Master | Organização e Backend |
+| Luiz Augusto | Product Owner | Definição de requisitos e Frontend |
+| Luís Felipe | Desenvolvedor | UI/UX Design |
+| Darlan | Desenvolvedor | UI/UX Design |
+| Pedro | Desenvolvedor | Frontend |
 
-## Estrutura do projeto
+---
 
-```
-SiteLembrete/
-├── index.html              ← raiz (diferença do Vite)
-├── vite.config.js
-├── package.json
-└── src/
-    ├── main.jsx            ← entry point (diferença do Vite)
-    ├── App.jsx
-    ├── global.css
-    ├── context/
-    │   ├── AuthContext.jsx
-    │   ├── LembretesContext.jsx
-    │   ├── ListasContext.jsx
-    │   └── TemaContext.jsx
-    ├── components/
-    │   ├── Layout.jsx
-    │   └── LembreteCard.jsx
-    └── pages/
-        ├── Auth/
-        ├── Home/
-        ├── Lembrete/
-        ├── Listas/
-        ├── Busca/
-        ├── Lixeira/
-        └── Perfil/
-```
+## Integrantes
+- Jailton dos Santos Vieira Filho
+- Luiz Augusto Correia Freire
+- Luís Felipe Silva Oliveira
+- Darlan Lima Pereira da Silva
+- Pedro Henrique Nogueira de Araújo
+
+---
+
+## Conclusão
+O projeto busca auxiliar usuários na organização de rotinas, utilizando lembretes e notificações para reduzir o esquecimento de compromissos.
