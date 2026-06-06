@@ -1,44 +1,9 @@
-# ─── Dependências ────────────────────────────────────────────
-# Pasta gerada pelo npm install — nunca sobe para o GitHub
-# O colega baixa com "npm install" depois de clonar
+# =============================================
+# .gitignore - SiteLembrete
+# =============================================
 node_modules/
-
-# ─── Build ───────────────────────────────────────────────────
-# Pasta gerada pelo "npm run build" — não sobe, é gerada na hospedagem
+.env
+*.log
 dist/
 build/
-
-# ─── Variáveis de ambiente ───────────────────────────────────
-# Arquivos com senhas e chaves — NUNCA subir para o GitHub
-.env
-.env.local
-.env.production
-.env.development
-
-# ─── Cache do Vite ───────────────────────────────────────────
-.vite/
-vite.config.js.timestamp-*
-
-# ─── Editores ────────────────────────────────────────────────
-# Configurações pessoais do VSCode — não são do projeto
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-
-# ─── Sistema operacional ─────────────────────────────────────
-# Arquivos gerados automaticamente pelo Windows e Mac
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# ─── Logs ────────────────────────────────────────────────────
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# ─── Cobertura de testes ─────────────────────────────────────
-coverage/
