@@ -1,104 +1,93 @@
 # NoteUp
 
-## Objetivo:
-
-O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos e lembretes 
-importantes, enviando avisos para evitar esquecimento.
+## Objetivo
+O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos e lembretes importantes, enviando notificações para evitar esquecimentos.
 
 ---
 
-## Publico-alvo:
-- Estudante
+## Público-alvo
+- Estudantes
 - Trabalhadores
 - Pessoas que precisam organizar rotinas
 
 ---
 
-## Funcionalidades:
-- Cadastro de usuario.
-- Login e autenticação.
-- Edição e exclussão.
-- Organização por tags.
+## Funcionalidades
+- Cadastro de usuário
+- Login e autenticação
+- Criação, edição e exclusão de lembretes
+- Organização por listas (Trabalho, Pessoal, Estudos, Saúde etc.)
+- Notificações com antecipação configurável
+- Repetição de lembretes (diário, semanal, mensal)
+- Lixeira com opção de restaurar
+- Busca de lembretes
+- Tema claro e escuro
 
 ---
 
-## Tecnologias utilizadas:
+## Tecnologias utilizadas
 
 ### Frontend
-- react native.
-- Expo.
-
-### Backend
-- Node.js.
+- React 18
+- Vite
+- React Router DOM v6
 
 ### Ferramentas
-- gitHub.
-- figma.
-- Trello.
+- GitHub
+- Figma
+- Trello
 
 ---
 
-## Como executar o projeto:
+## Como executar o projeto
 
 ### Clonar o repositório
+```bash
+git clone https://github.com/jailtonVieira/SiteLembrete
+```
 
-''' bash
-git clone https://github.com/jailtonVieira/AppLembrete/edit/codigo2
-'''
+### Entrar na pasta
+```bash
+cd SiteLembrete
+```
 
----
-
-### Entre na pasta
-
-'''bash
-cd https://github.com/jailtonVieira/AppLembrete/edit/codigo2
-'''
-
----
-
-### Abaixar as dependências
-
-'''bash
-npm intall
-'''
-
----
+### Instalar as dependências
+```bash
+npm install
+```
 
 ### Rodar
-
-'''bash
-npx expo start
-'''
+```bash
+npm run dev
+```
 
 ---
 
-## Metodologia:
-
-O projeto será desenvolvido utilizando a metodologia àgil Scrum,com foco em organizar, divisão de 
-tarefas e entregas contínuas durante o desenvolvimento do aplicativo
+## Metodologia
+O projeto é desenvolvido utilizando a metodologia ágil Scrum, com foco em organização, divisão de tarefas e entregas contínuas.
 
 ### O Scrum foi escolhido por permitir:
-- Melhor divisão de tarefas.
-- Acompanhamento de progresso.
-- Organização do time.
-- Facilidade para corrigir problemas rapidamente.
-- Desenvolvimento em etapas (Sprints).
+- Melhor divisão de tarefas
+- Acompanhamento de progresso
+- Organização do time
+- Facilidade para corrigir problemas rapidamente
+- Desenvolvimento em etapas (Sprints)
 
 ---
 
-## Papeis da equipe:
+## Papéis da equipe
 
 | Nome | Função | Responsabilidade |
-|------|---------| ----------------|
-| Jailton dos santos| Scrum master| Organizão e Backend|
-| Luiz augusto| Product owner | Definição de requisitos e Frontend|
-| Luis felipe | Desenvolverdor | UI/UX design |
-| Darlan | Desenvolvedor | UI/UX design |
+|------|--------|-----------------|
+| Jailton dos Santos | Scrum Master | Organização e Backend |
+| Luiz Augusto | Product Owner | Definição de requisitos e Frontend |
+| Luís Felipe | Desenvolvedor | UI/UX Design |
+| Darlan | Desenvolvedor | UI/UX Design |
 | Pedro | Desenvolvedor | Frontend |
 
 ---
 
-## Integrantes:
+## Integrantes
 - Jailton dos Santos Vieira Filho
 - Luiz Augusto Correia Freire
 - Luís Felipe Silva Oliveira
@@ -107,8 +96,5 @@ tarefas e entregas contínuas durante o desenvolvimento do aplicativo
 
 ---
 
-### Conclusão:
-
-O projeto busca auxiliar usuários na organização de rotinas, utilizando lembretes e notificação para 
-reduzir o esquecimento de compromissos.
-
+## Conclusão
+O projeto busca auxiliar usuários na organização de rotinas, utilizando lembretes e notificações para reduzir o esquecimento de compromissos.
