@@ -28,7 +28,7 @@ O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos
 ## Tecnologias utilizadas
 
 ### Frontend
-- React 18
+- React
 - Vite
 - React Router DOM v6
 
