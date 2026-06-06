@@ -1,4 +1,4 @@
-# AppLembrete — Vite + React
+# Site Lembrete — Vite + React
 
 Versão web do AppLembrete em React JS com Vite (UNINASSAU).
 
@@ -12,27 +12,11 @@ npm install
 npm run dev
 ```
 
-Abre em **http://localhost:5173** — entre com qualquer email e senha.
-
 ## Build para hospedagem (Vercel / Netlify)
 
 ```bash
 npm run build
 ```
-
-A pasta `dist/` gerada pode ser enviada para Vercel ou Netlify.
-
-### Deploy na Vercel
-1. Acesse vercel.com e faça login
-2. Clique em "Add New Project"
-3. Faça upload da pasta ou conecte o repositório GitHub
-4. Framework: **Vite** (detectado automaticamente)
-5. Clique em Deploy ✅
-
-### Deploy na Netlify
-1. Acesse netlify.com
-2. Arraste a pasta `dist/` direto no painel
-3. Pronto ✅
 
 ## Páginas (atende o requisito de 7 rotas do professor)
 
@@ -58,7 +42,7 @@ const API_URL = 'http://IP_DO_SERVIDOR:3000';
 ## Estrutura do projeto
 
 ```
-appLembreteVite/
+SiteLembrete/
 ├── index.html              ← raiz (diferença do Vite)
 ├── vite.config.js
 ├── package.json
