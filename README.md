@@ -7,7 +7,7 @@ O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos
 ## 🌐 Deploy
 O site está hospedado e pode ser acessado pelo link abaixo:
 
-> **[Noteup-site](https://noteup-mu.vercel.app/)**
+> **[https://noteup-mu.vercel.app/](https://noteup-mu.vercel.app/)**
 
 ---
 
