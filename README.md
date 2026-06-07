@@ -4,7 +4,7 @@
 O site tem como objetivo ajudar os usuários a organizarem tarefas, compromissos e lembretes importantes, enviando notificações para evitar esquecimentos.
 
 ---
-## 🌐 Deploy
+## Deploy
 O site está hospedado e pode ser acessado pelo link abaixo:
 
 > **[https://noteup-mu.vercel.app/](https://noteup-mu.vercel.app/)**
